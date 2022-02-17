@@ -1,0 +1,46 @@
+.titulo-1 {
+    color: rgb(6, 45, 129);
+    font-size: 2em;
+    margin: 2em;
+    text-align: center;
+    font-family: fantasy;
+    border: dotted;
+    border-color: violet;
+}
+
+.centrar {
+    text-align: center;
+    border: dotted rgba(158, 4, 150, 0.507);
+    font-family: fantasy;
+    color:rgb(247, 0, 62);
+    margin: 2em;
+    font-size: 2em;
+
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/5d/e1/06/5de106a2d142b5c8da55fa1ff2a57c62.jpg);
+    background-color: violet;
+}
+.texto {
+    text-align: center;
+    border: solid 10px;
+    border-color: rgb(206, 7, 83);
+    border-style: double;
+    font-family: fantasy;
+    margin: 2em;
+    color: rgb(4, 255, 150);
+    font-size: 2em;
+    
+}
+
+.centrar-2 {
+    text-align: center;
+    border: solid blueviolet;
+    margin: 3em 10em;
+}
+
+.Love {
+    border: double lightcoral;
+    margin: 2em 4em;
+}
