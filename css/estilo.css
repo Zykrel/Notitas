@@ -1,12 +1,8 @@
 .titulo-1 {
     color: rgb(6, 45, 129);
-    font-size: 2em;
-    margin: 1em;
+    font-size: 2em;    
     text-align: center;
-    font-family: fantasy;
-    border: double;
-    border-color: violet;
-    
+    font-family: fantasy;    
 }
 
 .centrar {
@@ -27,14 +23,16 @@ body {
 }
 .texto {
     text-align: center;
+    -webkit-text-stroke-width: thin;
     border: solid 10px;
     border-color: rgb(206, 7, 83);
     border-style: double;
     font-family: fantasy;
     margin: 2em;
-    color: rgb(4, 255, 150);
+    color: #9d1818;
     font-size: 2em;
-    
+    white-space: pre-line;
+        
 }
 
 .centrar-2 {
