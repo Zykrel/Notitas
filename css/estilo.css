@@ -1,26 +1,29 @@
 .titulo-1 {
     color: rgb(6, 45, 129);
     font-size: 2em;
-    margin: 2em;
+    margin: 1em;
     text-align: center;
     font-family: fantasy;
-    border: dotted;
+    border: double;
     border-color: violet;
+    
 }
 
 .centrar {
     text-align: center;
-    border: dotted rgba(158, 4, 150, 0.507);
+    border: solid rgba(158, 4, 150, 0.507);
     font-family: fantasy;
     color:rgb(247, 0, 62);
-    margin: 2em;
+    margin: auto;
     font-size: 2em;
+    width: fit-content;
 
 }
 
 body {
     background-image: url(https://i.pinimg.com/originals/5d/e1/06/5de106a2d142b5c8da55fa1ff2a57c62.jpg);
     background-color: violet;
+    background-attachment: fixed;
 }
 .texto {
     text-align: center;
