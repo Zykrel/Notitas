@@ -38,9 +38,22 @@ body {
     text-align: center;
     border: solid blueviolet;
     margin: 3em 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Love {
-    border: double lightcoral;
-    margin: 2em 4em;
+    border: double #154962;
+    width: fit-content;
+    margin: auto;
+}
+
+.botones {
+    text-align: center;
+    background-color: #6813568a;
+    color: #fff;
+    border-radius: 30px;
+
+
 }
