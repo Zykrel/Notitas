@@ -37,7 +37,8 @@ body {
 .centrar-2 {
     text-align: center;
     border: solid blueviolet;
-    margin: 3em 10em;
+    margin: auto;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
