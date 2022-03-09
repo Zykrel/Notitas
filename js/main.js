@@ -1,8 +1,8 @@
 const imagenes = [
-    'multimedia/original (2).jpg', 
+    'multimedia/aesthetic-anime.gif', 
     'multimedia/pp (1).png', 
-    'multimedia/0228e999-4394-43f0-a762-823ff939cef6.jpg',
-    'multimedia/f90b0a25f35a0357b28c25c5e8a9364f.jpg',
+    'multimedia/promise.gif',
+    'multimedia/3.gif',
     'multimedia/da.jpg',
     'multimedia/IMG_20211105_213033478.jpg',
     'multimedia/IMG_20211105_213040897.jpg',
@@ -22,6 +22,17 @@ const links = [
     'https://www.youtube.com/watch?v=D3P8goE1OPI',
     'https://www.instagram.com/nishkur3/?hl=es-la',
     'https://www.youtube.com/watch?v=BrEGSMBA8zE',
+    'https://www.youtube.com/watch?v=GtitP2XMBSo',
+    'https://www.youtube.com/watch?v=az0J_dyNEiY',
+    'https://www.youtube.com/watch?v=Eljl-xE6SaA',
+    'https://www.youtube.com/watch?v=bfaBr7EuZCE',
+    'https://www.youtube.com/watch?v=mZGRkgVKopA',
+    'https://www.youtube.com/watch?v=KPyYJaal40Y',
+    'https://www.youtube.com/watch?v=4MnJ7Wv8w7Y',
+    'https://www.youtube.com/watch?v=eBKuhpYher0',
+    'https://www.youtube.com/watch?v=vnKHgAsOha0',
+    'https://www.youtube.com/watch?v=2ET1_d07Wls',
+
 ];
 
 var contador = 0;
