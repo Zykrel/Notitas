@@ -1,62 +1,63 @@
-.titulo-1 {
-    color: rgb(6, 45, 129);
-    font-size: 2em;    
-    text-align: center;
-    font-family: fantasy;    
-}
+    .titulo-1 {
+        color: rgb(6, 50, 146);
+        font-size: 2em;    
+        text-align: center;
+        font-family: cursive;  
+    }
 
-.centrar {
-    text-align: center;
-    border: solid rgba(158, 4, 150, 0.507);
-    font-family: fantasy;
-    color:rgb(247, 0, 62);
-    margin: auto;
-    font-size: 2em;
-    width: fit-content;
+    .centrar {
+        text-align: center;
+        border: hidden rgba(158, 4, 150, 0.507);
+        font-family: fantasy;
+        color:rgb(247, 0, 62);
+        margin: auto;
+        font-size: 2em;
+        width: fit-content;
 
-}
+    }
 
-body {
-    background-image: url(https://i.pinimg.com/originals/5d/e1/06/5de106a2d142b5c8da55fa1ff2a57c62.jpg);
-    background-color: violet;
-    background-attachment: fixed;
-}
-.texto {
-    text-align: center;
-    -webkit-text-stroke-width: thin;
-    border: solid 10px;
-    border-color: rgb(206, 7, 83);
-    border-style: double;
-    font-family: fantasy;
-    margin: 2em;
-    color: #9d1818;
-    font-size: 2em;
-    white-space: pre-line;
-    background-color: #00000079;
+    body {
+        background-image: url(https://i.pinimg.com/originals/5d/e1/06/5de106a2d142b5c8da55fa1ff2a57c62.jpg);
+        background-color: violet;
+        background-attachment: fixed;
         
-}
+    }
+    .texto {
+        text-align: center;
+        -webkit-text-stroke-width: thin;
+        border: solid 10px;
+        border-style: hidden;
+        font-family: cursive;
+        margin: 1em;
+        color: #70189d;
+        font-size: 2em;
+        white-space: pre-line;
+        background-color: #c7c7c779;
+            
+    }
 
-.centrar-2 {
-    text-align: center;
-    border: solid blueviolet;
-    margin: auto;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .centrar-2 {
+        text-align: center;
+        margin: auto;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-.Love {
-    border: double #154962;
-    width: fit-content;
-    margin: auto;
-}
+    }
 
-.botones {
-    text-align: center;
-    background-color: #6813568a;
-    color: #fff;
-    border-radius: 30px;
+    .Love {
+        
+        width: fit-content;
+        margin: auto;
+        
+    }
+
+    .botones {
+        text-align: center;
+        background-color: #6813568a;
+        color: #fff;
+        border-radius: 50%;
 
 
-}
+    }
