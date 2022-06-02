@@ -34,12 +34,19 @@ const links = [
     'https://www.youtube.com/watch?v=2ET1_d07Wls',
 
 ];
-
 var contador = 0;
-function next(){
+setInterval(() => {
+    contador++;
+    next(true)
+}, 5000)
+
+
+function next(intervalo = false){
     let imagen = document.getElementById("imagen");
     let link = document.getElementById("link");
-    contador++;
+    if(!intervalo){
+        contador++;
+    }
     if(contador >= imagenes.length){
         contador = 0;
     }    
