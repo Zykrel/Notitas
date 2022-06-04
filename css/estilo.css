@@ -1,63 +1,91 @@
-    .titulo-1 {
-        color: rgb(6, 50, 146);
-        font-size: 2em;    
-        text-align: center;
-        font-family: cursive;  
+.titulo-1 {
+    color: rgb(6, 50, 146);
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+}
+
+.centrar {
+    text-align: center;
+    border: hidden rgba(158, 4, 150, 0.507);
+    font-family: fantasy;
+    color: rgb(247, 0, 62);
+    margin: auto;
+    font-size: 2em;
+    width: fit-content;
+
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/5d/e1/06/5de106a2d142b5c8da55fa1ff2a57c62.jpg);
+    background-color: violet;
+    background-attachment: fixed;
+
+}
+
+.texto {
+    text-align: center;
+    -webkit-text-stroke-width: thin;
+    border: solid 10px;
+    border-style: hidden;
+    font-family: cursive;
+    margin: 1em;
+    color: #70189d;
+    font-size: 2em;
+    white-space: pre-line;
+    background-color: #c7c7c779;
+
+}
+
+.centrar-2 {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.love {
+
+    width: fit-content;
+    margin: auto;
+
+}
+
+.botones {
+    text-align: center;
+    background-color: #6813568a;
+    color: #fff;
+    border-radius: 50%;
+
+
+}
+
+.transition {
+    animation-name: ruleta;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+
+}
+
+@keyframes ruleta {
+    0% {
+        opacity: 0;
     }
 
-    .centrar {
-        text-align: center;
-        border: hidden rgba(158, 4, 150, 0.507);
-        font-family: fantasy;
-        color:rgb(247, 0, 62);
-        margin: auto;
-        font-size: 2em;
-        width: fit-content;
+    55% {
+        opacity: 1;
 
     }
 
-    body {
-        background-image: url(https://i.pinimg.com/originals/5d/e1/06/5de106a2d142b5c8da55fa1ff2a57c62.jpg);
-        background-color: violet;
-        background-attachment: fixed;
-        
+    100% {
+        opacity: 0;
     }
-    .texto {
-        text-align: center;
-        -webkit-text-stroke-width: thin;
-        border: solid 10px;
-        border-style: hidden;
-        font-family: cursive;
-        margin: 1em;
-        color: #70189d;
-        font-size: 2em;
-        white-space: pre-line;
-        background-color: #c7c7c779;
-            
-    }
-
-    .centrar-2 {
-        text-align: center;
-        margin: auto;
-        width: fit-content;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .Love {
-        
-        width: fit-content;
-        margin: auto;
-        
-    }
-
-    .botones {
-        text-align: center;
-        background-color: #6813568a;
-        color: #fff;
-        border-radius: 50%;
-
-
-    }
+}

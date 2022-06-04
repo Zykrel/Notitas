@@ -38,7 +38,7 @@ var contador = 0;
 setInterval(() => {
     contador++;
     next(true)
-}, 5000)
+}, 2000)
 
 
 function next(intervalo = false){
