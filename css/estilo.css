@@ -65,7 +65,7 @@ body {
 
 .transition {
     animation-name: ruleta;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: infinite;
